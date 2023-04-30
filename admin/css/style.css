@@ -1,0 +1,235 @@
+#form_con{
+  background-color: rgb(244, 242, 242);
+  position: relative;
+  top: 100px;
+  padding: 20px 5px 20px 5px;
+  width: 400px;
+  height: 450px;
+  border: 1px solid #e9502a;
+  /* border-radius: 10px; */
+  box-shadow: #e9502a -15px -15px 1px;
+}
+#form_con form table{
+  line-height: 50px;
+  font-size: 20px;
+}
+#name, #email, #pass, #pname, #price, #desc{
+  font-size: 20px;
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
+  background: none;
+}
+#login{
+  cursor: pointer;
+  color: aliceblue;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  background-color: #e9502a;
+}
+#login:hover{
+  background-color: #b53717;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#sidebar{
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  /* width: 270px; */
+  height: 100vh;
+  color: aliceblue;
+  text-align: center;
+  background-color: #e9502a;
+}
+#sidebar h2{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid aliceblue;
+}
+#sidebar #blank2{
+  width: auto;
+  height: 40px;
+}
+#sidebar a{
+  text-decoration: none;
+}
+#sidebar a #menu{
+  color: aliceblue;
+  font-size: 20px;
+  border: none;
+  padding: 10px 0 10px 0;
+  transition: 0.2s;
+}
+#sidebar a #menu:hover{
+  color: black;
+  background-color: #fc9379;
+  transition: 0.2s;
+}
+#admin_content{
+  width: 100%;
+  margin-left: 240px;
+  /* height: 100vh; */
+  /* background-color: aliceblue; */
+}
+#content_head nav{
+  padding: 20px 0 0 20px;
+}
+/* dashboard css  */
+.board{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 21rem;
+  height: 12rem;
+  border-radius: 10px;
+  box-shadow: 2px 2px 7px rgb(169, 169, 169);
+}
+#product{
+  background-color: rgb(122, 173, 19);
+}
+#order{
+  background-color: rgb(0, 123, 224);
+}
+#register{
+  background-color: rgb(154, 0, 154);
+}
+#feedback{
+  background-color: rgb(219, 33, 0);
+}
+#subscriber{
+  background-color: rgb(219, 183, 0);
+}
+#contact{
+  background-color: rgb(115, 129, 142);
+}
+.board #text_con{
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+}
+#calendar{
+  padding: 15px 0 15px 0;
+  width: 21rem;
+  border-radius: 10px;
+  border: 2px solid rgb(191, 191, 191);
+  background-color: rgb(233, 233, 233);
+  box-shadow: 2px 2px 7px rgb(169, 169, 169);
+}
+.today{
+  border-radius: 4px;
+  background-color: #ff3713;
+}
+.ym_head a{
+  color: black;
+}
+/* end  */
+#add, #cel{
+  margin-left: 20px;
+  padding: 5px;
+  font-size: 18px;
+  border: none;
+  border-radius: 3px;
+  color: rgb(220, 238, 254);
+  background-color: rgb(34, 78, 254);
+}
+#add:hover{
+  background-color: rgb(20, 58, 206);
+}
+#cel{
+  background-color: rgb(237, 0, 0);
+}
+#cel a{
+  color: rgb(218, 220, 222);
+  text-decoration: none;
+}
+#cel:hover{
+  background-color: rgb(206, 7, 7);
+}
+#pform_con{
+  display: none;
+}
+#pform_con form table{
+  font-size: 18px;
+  width: 600px;
+}
+#pname, #price, #desc{
+  width: 450px;
+}
+.file{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+#pimg::-webkit-file-upload-button{
+  cursor: pointer;
+  background-color: #e9502a;
+  border: none;
+  border-radius: 10px;
+}
+#pimg::-webkit-file-upload-button:hover{
+  background-color: #d8411b;
+  /* background-color: red; */
+}
+#pimg{
+  background-color: aliceblue;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.fs16{
+  font-size: 16px;
+}
+.fs20{
+  font-size: 20px;
+}
+#prod_tb{
+  max-width: 1200px;
+  text-align: center;
+  background-color: rgb(231, 236, 245);
+}
+#ptb_head{
+  height: 50px;
+  background-color: #f5491e;
+}
+#ptr{
+  border-bottom: 1px solid rgb(196, 195, 195);
+}
+/* #td_id{
+  width: 50px;
+}
+#td_img{
+  width: 170px;
+}
+#td_name{
+  width: 200px;
+}
+#td_price{
+  width: 100px;
+}
+#td_desc{
+  width: 250px;
+}
+#td_act{
+  width: 320px;
+} */
+#upd,#del{
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  color: rgb(216, 251, 227);
+  border: none;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+#upd:hover,#del:hover{
+  opacity: 0.8;
+  transition: 0.2s;
+}
+#upd{
+  background-color: rgb(34, 78, 254);
+}
+#del{
+  background-color: rgb(222, 4, 4);
+}
