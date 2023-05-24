@@ -96,7 +96,7 @@ else{
     }
   }
   else {
-    echo "No order has been yet!";
+    echo "<td colspan='4' align='center'>No order has been yet!</td>";
   }
 ?>
           </table><hr>

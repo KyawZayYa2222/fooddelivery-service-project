@@ -35,17 +35,17 @@ if(isset($_POST['send'])){
                   <p><?php echo $alert; ?></p>
                 </div>
                 <div>
-                  <input type="text" name="name" placeholder="Name">
+                  <input type="text" name="name" placeholder="Name" required>
                 </div>
                 <div>
-                  <input type="text" name="phone" placeholder="Phone Number">
+                  <input type="text" name="phone" placeholder="Phone Number" required>
                 </div>
                 <div>
-                  <input type="email" name="email" placeholder="Email">
+                  <input type="email" name="email" placeholder="Email" required>
                 </div>
 
                 <div class="mt-5">
-                  <input type="text" name="message" placeholder="Message">
+                  <input type="text" name="message" placeholder="Message" required>
                 </div>
                 <div class="mt-5">
                   <button type="submit" name="send">
